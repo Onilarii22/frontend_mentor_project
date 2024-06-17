@@ -1,0 +1,104 @@
+/* @font-face {
+  font-family: 'Montserrat'; 
+  src: url('./design/font/Montserrat-Italic-VariableFont_wght.ttf') format('truetype'); 
+}
+
+@font-face {
+  font-family: 'Fraunces';
+  src: url('.\design\font\Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf') format('truetype');
+  
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color:hsl(30, 38%, 92%) ;
+  }
+  .boite {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 490px;
+    height: 375px;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .droite {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 20px;
+  }
+  .gauche {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+  }
+  .ptitre {
+    font-size: 10px;
+    color: grey;
+    padding-bottom: 10px;
+    font-family: 'Montserrat';
+   
+  }
+  .dtitre {
+    font-size: 30px;
+    font-weight: 100px;
+    color: hsl(212, 21%, 14%);
+    padding-bottom: 10px;
+    font-family: 'Fraunces';
+  }
+  .text {
+    font-size: 14px;
+    color: grey;
+    padding-bottom: 10px;
+  }
+  .pri {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .prix {
+    font-family: 'Fraunces' ;
+    font-size: 30px;
+    color: #3d8168;
+  }
+  .prixs {
+    padding: 10px;
+    text-decoration: line-through;
+    color: grey;
+    font-size: 13px;
+    font-family: 'Montserrat';
+  }
+  button {
+    background-color: #3d8168;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+  }
+  button svg {
+    padding: 5px;
+  }
+  button:hover {
+    background-color: #154a37;
+  }
+  .attribution { 
+    font-size: 11px; text-align: center;
+   }
+  .attribution a {
+     color: hsl(228, 45%, 44%); 
+    }
