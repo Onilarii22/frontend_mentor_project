@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: url('./images/pattern-background-desktop.svg') no-repeat ;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display',sans-serif;
+    color: hsl(224, 23%, 55%);
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.container {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 1px 19px 22px 0px rgb(177, 194, 238);
+}
+.second_part {
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.first_title {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    color:  hsl(223, 47%, 23%);
+    text-align: center;
+}
+.text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+}
+.third_step {
+    display: flex;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 13px;
+}
+.third_step .first {
+    margin-left: 10px;
+}
+.third_step .second {
+    color: #3c33aa;
+    text-decoration: underline;
+    margin-left: auto;
+    font-weight: bold;
+}
+.third_step .second:hover {
+    text-decoration: none;
+    color: #766cf1;
+    cursor: pointer;
+}
+.third_step .first .bold {
+    font-weight: bold;
+    color: hsl(223, 47%, 23%);
+    font-family: 'Red Hat Display';
+    font-size: 13px;
+}
+.buton {
+    display: flex;
+    justify-content: center;
+}
+.buton button {
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Red Hat Display';
+    box-shadow: 1px 6px 22px 0px rgba(114,128,167,0.73);
+}
+button:hover {
+    background-color: #766cf1;
+    cursor: pointer;
+}
+.last {
+    text-align: center;
+    /* margin-bottom: 30px; */
+    font-weight: bold;
+    font-size: 13px;
+}
+.last:hover {
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+    body {
+        background-color: hsl(225, 100%, 94%);
+    }
+  }
